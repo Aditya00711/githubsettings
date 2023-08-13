@@ -1,17 +1,17 @@
 {
-	"workbench.colorTheme": "Cobalt2",
-	"editor.fontSize": 18,
+	"editor.fontSize": 17,
 	"editor.fontWeight": "normal",
-	"editor.fontFamily": "Input Mono, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
 	"editor.lineHeight": 40,
-	"editor.letterSpacing": 0.9,
+	"editor.letterSpacing": 1,
+	"editor.tabCompletion": "on",
 	"editor.wordWrap": "wordWrapColumn",
 	"editor.fontLigatures": true,
 	"workbench.editor.tabSizing": "shrink",
 	"html.format.enable": true,
 	"html.format.preserveNewLines": true,
 	"files.trimTrailingWhitespace": true,
-	"editor.cursorWidth": 5,
+	"editor.cursorWidth": 3,
 	"editor.tabSize": 2,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"[javascript]": {
@@ -28,7 +28,7 @@
 	"editor.formatOnSave": true,
 	"editor.codeActionsOnSave": {
 		"source.fixAll": true,
-		"source.sortImports": false
+		"source.sortImports": true
 	},
 	"editor.renderControlCharacters": true,
 	"editor.copyWithSyntaxHighlighting": false,
@@ -37,21 +37,12 @@
 	"editor.suggestSelection": "first",
 	"[css]": {
 		"editor.suggest.insertMode": "replace",
-		"gitlens.codeLens.scopes": [
-			"document"
-		]
 	},
 	"workbench.colorCustomizations": {
 		"errorLens.hintForeground": "#ffc600A1",
 		"errorLens.hintBackground": "#ffc60003",
 		"errorLens.errorBackground": "#ff000005"
 	},
-	"errorLens.onSave": true,
-	"errorLens.enabledDiagnosticLevels": [
-		"error",
-		"warning",
-		"hint"
-	],
 	"extensions.ignoreRecommendations": false,
 	"files.exclude": {
 		"**/.cache": true,
@@ -87,11 +78,11 @@
 	"editor.renderWhitespace": "selection", // removes whitespace chars
 	"editor.hideCursorInOverviewRuler": true, // removes the folding feature
 	"editor.glyphMargin": true, // removes the space used mainly for debugging indicators
-	"explorer.openEditors.visible": 0,
+	"explorer.openEditors.visible": 1,
 	"editor.overviewRulerBorder": true,
 	"workbench.editor.showIcons": true, // removes icon from opened files in tabs
 	"editor.occurrencesHighlight": true,
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.iconTheme": "dobri-theme-icons",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"explorer.confirmDelete": false,
 	"editor.minimap.size": "fill",
@@ -112,7 +103,6 @@
 	"workbench.editor.wrapTabs": true,
 	"workbench.editor.enablePreviewFromQuickOpen": true,
 	"workbench.editor.revealIfOpen": true,
-	"workbench.productIconTheme": "fluent-icons",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"editor.largeFileOptimizations": true,
 	"files.autoSave": "off",
@@ -120,25 +110,16 @@
 	"git.enableSmartCommit": true,
 	"github.copilot.enable": {
 		"*": true,
-		"yaml": false,
 		"plaintext": true,
-		"markdown": false
+		"markdown": false,
+		"scminput": false,
+		"yaml": false
 	},
 	"workbench.editor.untitled.hint": "hidden",
 	"editor.accessibilitySupport": "off",
 	"terminal.integrated.env.osx": {
 		"FIG_NEW_SESSION": "1"
 	},
-	"dashyeah.title": "Projects",
-	"dashyeah.debug": false,
-	"dashyeah.database": [],
-	"dashyeah.folderSizing": "col-12",
-	"dashyeah.columnSizing": "col-12 col-md-6",
-	"dashyeah.showPaths": true,
-	"dashyeah.fontSize": "font-size-normal",
-	"dashyeah.rounded": true,
-	"dashyeah.openOnNewWindow": true,
-	"dashyeah.openInNewWindow": false,
 	"editor.stickyTabStops": true,
 	"editor.stickyScroll.enabled": true,
 	"editor.scrollbar.verticalScrollbarSize": 50,
@@ -154,5 +135,9 @@
 	"typescript.inlayHints.functionLikeReturnTypes.enabled": true,
 	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
 	"editor.inlayHints.enabled": "offUnlessPressed",
-	"reactSnippets.settings.prettierEnabled": true
+	"window.titleBarStyle": "custom",
+	"workbench.colorTheme": "Spirited Away",
+	"terminal.integrated.env.windows": {},
+	"workbench.productIconTheme": "material-product-icons",
+	"chatgpt.lang": "en"
 }
